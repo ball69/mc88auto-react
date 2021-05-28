@@ -41,7 +41,7 @@ class App extends Component {
                                     <Route path={``} subdomain={data.match.params} component={Brand} exact />
                                     <Route path={`/:brand/login`} component={Login} />
                                     <Route path={`/:brand/register`} component={Register} exact />
-                                    <Route path={`/:brand/register/:invite_id`} component={Register} exact />
+                                    <Route path={`/:brand/register/invite/:invite_id`} component={Register} exact />
                                     <PrivateRoute path={`/:brand/register/success`} subdomain={data.match.params} component={RegisterSuccess} exact />
                                     <PrivateRoute path={`/:brand/member`} subdomain={data.match.params} component={Home} exact />
                                     <PrivateRoute path={`/:brand/member/deposit`} subdomain={data.match.params} component={Deposit} exact />
