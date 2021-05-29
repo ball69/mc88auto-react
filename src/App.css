@@ -45,7 +45,15 @@ body.dark-layout {
     border-top: unset !important;
 }
 
+.dark-layout .custom-file-label,
+.dark-layout input.form-control,
+.dark-layout textarea.form-control {
+    background-color: #2a2e30;
+    color: #000000;
+}
+
 a {
+    color: #2585c5;
     text-decoration: none !important;
 }
 
