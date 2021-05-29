@@ -20,6 +20,16 @@ body.dark-layout {
     background-size: cover;
 }
 
+.title {
+    color: white;
+}
+
+.dark-layout .custom-select, .dark-layout select.form-control {
+    background-color: #283046;
+    color: #686e7d;
+    border-color: #3b4253;
+}
+
 .dark-layout body,
 body.dark-layout {
     color: #000000;
