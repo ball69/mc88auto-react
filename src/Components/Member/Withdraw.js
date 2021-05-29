@@ -192,7 +192,9 @@ class Withdraw extends Component {
                                                                 <div className="card-body">
                                                                     <h4 className="text-white mb-0"><b> <i className="fad fa-dollar-sign"></i> เครดิตของคุณ: </b> </h4>
                                                                     <hr className="hr-white" />
-                                                                    <h4><CurrencyFormat value={this.state.user.credit} displayType={'text'} thousandSeparator={true} /> credit</h4>
+                                                                    <h4>
+                                                                        {this.state.credit} Credit
+                                                                    </h4>
                                                                 </div>
                                                             </div>
                                                             {
