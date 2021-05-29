@@ -13,11 +13,20 @@ body {
 
 .dark-layout body,
 body.dark-layout {
-    background-color: #000;
+    background: url('./_assets/images/wall.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.dark-layout body,
+body.dark-layout {
+    color: #000000;
 }
 
 .card-auto-1 {
-    background-color: transparent !important;
+    background-color: #ecc84a !important;
     box-shadow: unset !important;
 }
 
@@ -29,7 +38,7 @@ body.dark-layout {
 
 .form-control:focus,
 .form-control:hover {
-    border: 1px solid #ffc800 !important;
+    border: 1px solid #28c76f !important;
 }
 
 .card-auto-1 .card-footer {
@@ -37,7 +46,6 @@ body.dark-layout {
 }
 
 a {
-    color: #ffc800 !important;
     text-decoration: none !important;
 }
 
@@ -54,7 +62,7 @@ p {
 }
 
 .btn-auto {
-    background-color: #ffc800 !important;
+    background-color: #28c76f !important;
     color: black !important;
 }
 
@@ -81,7 +89,7 @@ p {
 }
 
 .btn-auto:focus {
-    background-color: #ffc800 !important;
+    background-color: #28c76f !important;
     box-shadow: 0px 2px 10px 4px #463434 !important;
 }
 
@@ -94,12 +102,12 @@ p {
 
 .dark-layout .input-group:focus-within .form-control,
 .dark-layout .input-group:focus-within .input-group-text {
-    border-color: #ffc800;
+    border-color: #28c76f;
 }
 
 .dark-layout .input-group:hover .form-control,
 .dark-layout .input-group:hover .input-group-text {
-    border-color: #ffc800;
+    border-color: #28c76f;
 }
 
 .dark-layout h1,
@@ -108,17 +116,21 @@ p {
 .dark-layout h4,
 .dark-layout h5,
 .dark-layout h6 {
-    color: white;
+    color: #000;
 }
 
 .btn-auto-secondary {
     background-color: transparent;
-    color: white !important;
+    color: #000 !important;
 }
 
 .card-auto-2 {
 
-    background-color: #ffc800 !important;
+    background-color: #28c76f !important;
+}
+
+small {
+    color: #000 !important;
 }
 
 .card-auto-2 h2 {
@@ -138,7 +150,7 @@ p {
 }
 
 .card-auto-1 p {
-    color: white;
+    color: black;
 }
 
 .block-center {
@@ -151,18 +163,18 @@ p {
 .btn-primary.active,
 .btn-primary:active,
 .btn-primary:focus {
-    background-color: #ffc800 !important;
+    background-color: #28c76f !important;
 }
 
 .btn-primary {
-    background-color: #ffc800 !important;
-    border-color: #ffc800 !important;
+    background-color: #28c76f !important;
+    border-color: #28c76f !important;
 }
 
 .main-menu.menu-dark .navigation>li.active>a {
-    background: #ffc800 !important;
-    box-shadow: 0 0 10px 1px #ffc800;
-    border-color: #ffc800;
+    background: #28c76f !important;
+    box-shadow: 0 0 10px 1px #28c76f;
+    border-color: #28c76f;
     color: black !important;
     font-weight: 400;
     border-radius: 4px;
@@ -188,13 +200,11 @@ p {
 
 .main-menu,
 .nav {
-
-    background-color: #0a0a0a !important;
+    background-color: #0000005c !important;
 }
 
 .card-auto-3 {
-    background-color: #0a0a0a !important;
-    ;
+    background: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%) !important;
 }
 
 @media (min-width: 992px) {
@@ -222,7 +232,7 @@ p {
 }
 
 .bottombar-mobile {
-    background-color: #0a0a0a !important;
+    background: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%) !important;
     position: fixed;
     right: 0;
     left: 0;
@@ -287,11 +297,11 @@ p {
 
 
 .btn-auto-icon {
-    background-color: #0a0a0a !important;
+    background: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%) !important;
     font-size: 20px !important;
     padding: 19px !important;
     margin-bottom: 10px !important;
-    color: #ffc800 !important;
+    color: #28c76f !important;
 }
 
 p {
@@ -303,7 +313,7 @@ html .blank-page .content.app-content {
 }
 
 .text-auto {
-    color: #ffc800;
+    color: #28c76f;
 }
 
 .card {
@@ -324,16 +334,9 @@ html .blank-page .content.app-content {
     cursor: pointer;
 }
 
-/* .box-promotion {
-    height: 360px;
-    position: relative;
+.card​ {
+    border: 1px solid rgba(0, 0, 0, .125);
 }
-
-.box-promotion>button {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-} */
 
 .text-overflow {
 

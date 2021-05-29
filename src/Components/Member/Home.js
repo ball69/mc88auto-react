@@ -33,6 +33,7 @@ class Home extends Component {
     }
 
     async componentDidMount() {
+        console.log('home');
         await brandService.checkBrand(this.brand)
             .then((response) => {
                 if (response.data.id !== this.state.user.brand_id) {
@@ -177,8 +178,8 @@ class Home extends Component {
                                         <div className="content-body">
                                             <div className="d-xs-none">
                                                 <a href={this.state.url} className="btn btn-auto btn-lg pull-right">
-                                                    <i className="fad fa-gamepad-alt mr-1"></i>
-                                                    เข้าเล่นเกมส์
+                                                    <i className="fad fa-fad fa-ball-pile mr-3"></i>
+                                                    ซื้อหวย
                                                 </a>
                                                 <h1 className="">ยินดีต้อนรับ คุณ {this.state.user.name}</h1>
                                             </div>
@@ -231,7 +232,7 @@ class Home extends Component {
                                                 <div className="col-lg-4 col-md-4">
                                                     <div className="card card-auto-3">
                                                         <div className="card-header">
-                                                            <h2 className="card-title">ไอดีเข้าเล่นเกมส์</h2>
+                                                            <h2 className="card-title text-white">ไอดีเข้าซื้อหวย</h2>
                                                         </div>
                                                         <div className="card-body">
                                                             <div className="card-text text-white">
@@ -240,19 +241,19 @@ class Home extends Component {
                                                                 <p><b> <i className="fad fa-key" /> {this.state.user.password_generate}</b>
                                                                     <button type="button" onClick={() => clipboard(this.state.user.password_generate)} className="btn btn-auto btn-sm pull-right"> <i className="fa fa-copy" /> คัดลอก </button></p>
                                                             </div>
-                                                            <div className="row d-xs-none mt-5">
+                                                            {/* <div className="row d-xs-none mt-5">
                                                                 <div className="col-lg-12">
                                                                     <a href={`https://line.mc88auto.com/connect/${this.brand}`}
                                                                         className="btn btn-auto-line btn-block">
                                                                         <i className="fab fa-line" /> เชื่อมต่อไอดีไลน์ VIP
                                                                     </a>
                                                                 </div>
-                                                            </div>
-                                                            {/* <div className="row d-lg-none mt-5">
-                                                                <div className="col-lg-12">
-                                                                    <button className="btn btn-auto btn-block"> <i className="fa fa-gamepad" /> รับเครดิคฟรี</button>
-                                                                </div>
                                                             </div> */}
+                                                            <div className="row d-lg-none mt-5">
+                                                                <div className="col-lg-12">
+                                                                    <a href={this.state.url} className="btn btn-auto btn-block btn-lg"> <i className="fad fa-ball-pile" /> ซื้อหวย</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -276,18 +277,18 @@ class Home extends Component {
                                                             </Link>
                                                             <p className="text-center">ประวัติ</p>
                                                         </div>
-                                                        <div className="col-3">
+                                                        {/* <div className="col-3">
                                                             <Link to={`/${this.brand}/member/promotion`} className="btn btn-auto-icon img-center">
                                                                 <i className="fad fa-gift" />
                                                             </Link>
                                                             <p className="text-center">โปรโมชั่น</p>
-                                                        </div>
-                                                        <div className="col-3">
+                                                        </div> */}
+                                                        {/* <div className="col-3">
                                                             <Link to={`/${this.brand}/member/invite`} className="btn btn-auto-icon img-center">
                                                                 <i className="fad fa-users-class" />
                                                             </Link>
                                                             <p className="text-center">ชวนเพื่อน</p>
-                                                        </div>
+                                                        </div> */}
                                                         <div className="col-3">
                                                             <Link to={`/${this.brand}/member/profile`} className="btn btn-auto-icon waves-effect img-center">
                                                                 <i className="fad fa-id-card" />
@@ -309,47 +310,48 @@ class Home extends Component {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="row">
+                                            {/* <div className="row">
                                                 <div className="col-lg-12  d-xs-none">
                                                     <h2> <i className="fad fa-people-arrows"></i> ลิงค์แนะนำเพื่อน </h2>
-                                                    <hr />
-                                                    {
-                                                        (this.state.promotionInvite)
-                                                            ?
-                                                            <div>
-                                                                <p className="text-center">{this.state.promotionInvite.name}</p>
-                                                                <div className="row">
-                                                                    <div className="col-lg-6 mx-auto">
-                                                                        <div className="input-group">
-                                                                            {/* <div className="input-group-prepend">
+                                                    <hr /> */}
+                                            {
+                                                (this.state.promotionInvite)
+                                                    ?
+                                                    <div>
+                                                        <p className="text-center">{this.state.promotionInvite.name}</p>
+                                                        <div className="row">
+                                                            <div className="col-lg-6 mx-auto">
+                                                                <div className="input-group">
+                                                                    {/* <div className="input-group-prepend">
                                                                     <button className="btn btn-auto waves-effect" type="button">
                                                                         ลิงค์ของคุณ
                                                                     </button>
                                                                 </div> */}
-                                                                            <input type="text" className="form-control form-control form-auto" defaultValue={this.state.user.invite_url} readOnly />
-                                                                            <div className="input-group-append">
-                                                                                <button className="btn btn-auto waves-effect" type="button" onClick={() => clipboard(this.state.user.invite_url)}>
-                                                                                    <i className="fa fa-clipboard"></i> คัดลอก
-                                                                                </button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="row mt-2">
-                                                                    <div className="col-lg-6 mx-auto">
-                                                                        <Link to={`/${this.brand}/member/invite`} className="btn btn-auto btn-block btn-lg btn-wave-effects">
-                                                                            <i className="fad fa-envelope-open-dollar mr-1"></i>
-                                                                            รับโบนัส
-                                                                        </Link>
+                                                                    <input type="text" className="form-control form-control form-auto" defaultValue={this.state.user.invite_url} readOnly />
+                                                                    <div className="input-group-append">
+                                                                        <button className="btn btn-auto waves-effect" type="button" onClick={() => clipboard(this.state.user.invite_url)}>
+                                                                            <i className="fa fa-clipboard"></i> คัดลอก
+                                                                        </button>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            :
-                                                            <p>ขณะนี้ระบบแนะนำเพื่อนยังไม่เปิดให้ใช้บริการ</p>
+                                                        </div>
+                                                        <div className="row mt-2">
+                                                            <div className="col-lg-6 mx-auto">
+                                                                <Link to={`/${this.brand}/member/invite`} className="btn btn-auto btn-block btn-lg btn-wave-effects">
+                                                                    <i className="fad fa-envelope-open-dollar mr-1"></i>
+                                                                    รับโบนัส
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    :
+                                                    ''
+                                                // <p>ขณะนี้ระบบแนะนำเพื่อนยังไม่เปิดให้ใช้บริการ</p>
 
-                                                    }
-                                                </div>
-                                            </div>
+                                            }
+                                            {/* </div>
+                                            </div> */}
                                             {
                                                 (this.state.promotions.length > 0)
                                                     ?

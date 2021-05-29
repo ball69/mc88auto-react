@@ -23,6 +23,7 @@ import { NotificationContainer } from 'react-notifications';
 import './App.css';
 import 'react-notifications/lib/notifications.css';
 import RegisterSuccess from './Components/Auth/RegisterSuccess';
+import HomeDirect from './Components/Member/HomeDirect';
 
 class App extends Component {
 
@@ -44,6 +45,7 @@ class App extends Component {
                                     <Route path={`/:brand/register/invite/:invite_id`} component={Register} exact />
                                     <PrivateRoute path={`/:brand/register/success`} subdomain={data.match.params} component={RegisterSuccess} exact />
                                     <PrivateRoute path={`/:brand/member`} subdomain={data.match.params} component={Home} exact />
+                                    <PrivateRoute path={`/:brand/member/direct`} subdomain={data.match.params} component={HomeDirect} exact />
                                     <PrivateRoute path={`/:brand/member/deposit`} subdomain={data.match.params} component={Deposit} exact />
                                     <PrivateRoute path={`/:brand/member/withdraw`} subdomain={data.match.params} component={Withdraw} exact />
                                     <PrivateRoute path={`/:brand/member/history`} subdomain={data.match.params} component={History} exact />

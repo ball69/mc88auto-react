@@ -236,7 +236,7 @@ class Withdraw extends Component {
                                                                         <i className="fad fa-check mr-1"></i>
                                                                         ถอนเงิน
                                                                     </button>
-                                                                    <small className="text-white mb-0">ถอนขั้นต่ำ {this.state.brand.withdraw_min}</small>
+                                                                    <small className="mb-0">ถอนขั้นต่ำ {this.state.brand.withdraw_min}</small>
                                                                 </div>
                                                             </div>
                                                         </div>

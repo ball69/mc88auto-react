@@ -57,19 +57,19 @@ class Navbar extends Component {
                                     </Link>
 
                                 </li>
-                                <li className={`nav-item ${this.pathname === `/${this.brand}/member/promotion` ? "active" : ""}`}>
+                                {/* <li className={`nav-item ${this.pathname === `/${this.brand}/member/promotion` ? "active" : ""}`}>
                                     <Link className="d-flex align-items-center" to={`/${this.brand}/member/promotion`}>
 
                                         <i className="fad fa-gift-card"></i>
                                         <span className="menu-title text-truncate" data-i18n="Home">โปรโมชั่น</span>
                                     </Link>
-                                </li>
-                                <li className={`nav-item ${this.pathname === `/${this.brand}/member/invite` ? "active" : ""}`}>
+                                </li> */}
+                                {/* <li className={`nav-item ${this.pathname === `/${this.brand}/member/invite` ? "active" : ""}`}>
                                     <Link className="d-flex align-items-center" to={`/${this.brand}/member/invite`}>
                                         <i className="fad fa-users-class"></i>
                                         <span className="menu-title text-truncate" data-i18n="Home">ลิงค์ชวนเพื่อน</span>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className={`nav-item ${this.pathname === `/${this.brand}/member/profile` ? "active" : ""}`}>
                                     <Link className="d-flex align-items-center" to={`/${this.brand}/member/profile`}>
                                         <i className="fad fa-id-card"></i>

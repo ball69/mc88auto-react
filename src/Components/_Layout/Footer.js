@@ -42,9 +42,9 @@ class Footer extends Component {
                         </li>
                         <li className="nav-item middle-item">
                             <a href={this.state.url} className="nav-link btn-auto">
-                                <i className="fad fa-gamepad-alt" />
+                                <i className="fad fa-ball-pile" />
                             </a>
-                            <span className="text-auto">เข้าเล่นเกม</span>
+                            <span className="text-auto pt-5">ซื้อหวย</span>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link " to={`/${this.brand}/member/withdraw`}>  <i className="fad fa-credit-card" /><span>ถอนเงิน</span></Link>

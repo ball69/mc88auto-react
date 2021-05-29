@@ -124,7 +124,7 @@ class Profile extends Component {
                                                     <div className="col-lg-4 col-md-4">
                                                         <div className="card bg-info">
                                                             <div className="card-body">
-                                                                <h4 className=""> <i className="fad fa-gamepad"></i> ไอดีเข้าเล่นเกมส์</h4>
+                                                                <h4 className="text-white"> <i className="fad fa-gamepad"></i> ไอดีเข้าเล่นเกมส์</h4>
                                                                 <hr className="hr-white" />
                                                                 <div className="card-text text-white">
                                                                     <p><b> <i className="fad fa-user" /> {this.state.user.username}</b>
@@ -149,7 +149,7 @@ class Profile extends Component {
                                                             color: this.state.profile.bank.font_color,
                                                         }}>
                                                             <div className="card-body">
-                                                                <h2 className="card-title">บัญชีธนาคาร</h2>
+                                                                <h2 className="card-title" style={{ color: this.state.profile.bank.font_color }}>บัญชีธนาคาร</h2>
                                                                 <hr style={{ borderColor: this.state.profile.bank.font_color }} />
                                                                 <img
                                                                     src={
