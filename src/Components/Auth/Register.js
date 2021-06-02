@@ -394,7 +394,7 @@ class Register extends Component {
                                             <div className="auth-inner py-2">
                                                 <div className="card card-auto-1">
                                                     <div className="card-body">
-                                                        <img src={`https://bot.mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid img-center mb-5 rounded" width="150" alt="" />
+                                                        <img src={`https://mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid img-center mb-5 rounded" width="150" alt="" />
                                                         {/* formStep */}
                                                         <div className="row pt-3">
                                                             <div className="col-4 text-center ">

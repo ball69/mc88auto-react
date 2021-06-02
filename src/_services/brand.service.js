@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://admin.mc88auto.com/api/';
+const API_URL = 'https://mc88auto.com/api/';
 
 class brandService {
 

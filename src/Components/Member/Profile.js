@@ -155,7 +155,7 @@ class Profile extends Component {
                                                                     src={
                                                                         this.state.profile.bank.logo === undefined
                                                                             ? ""
-                                                                            : "https://bot.mc88auto.com/" + this.state.profile.bank.logo
+                                                                            : "https://mc88auto.com/" + this.state.profile.bank.logo
                                                                     }
                                                                     alt=""
                                                                     width="60"

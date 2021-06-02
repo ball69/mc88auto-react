@@ -157,7 +157,7 @@ class Deposit extends Component {
                                                                                     src={
                                                                                         profile.bank.logo === undefined
                                                                                             ? ""
-                                                                                            : "https://bot.mc88auto.com/" + profile.bank.logo
+                                                                                            : "https://mc88auto.com/" + profile.bank.logo
                                                                                     }
                                                                                     alt=""
                                                                                     width="30"
@@ -227,7 +227,7 @@ class Deposit extends Component {
                                                                             >
                                                                                 <div className="card-body">
                                                                                     <img
-                                                                                        src={"https://bot.mc88auto.com/" + bank.bank.logo}
+                                                                                        src={"https://mc88auto.com/" + bank.bank.logo}
                                                                                         className="img-fluid img-center mb-5"
                                                                                         width="60"
                                                                                         alt=""

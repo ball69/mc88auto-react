@@ -184,7 +184,7 @@ class Home extends Component {
                                                 <h1 className="">ยินดีต้อนรับ คุณ {this.state.user.name}</h1>
                                             </div>
                                             <div className="pb-4">
-                                                <img src={`https://bot.mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid rounded-circle d-lg-none pb-2" width={100} alt="" />
+                                                <img src={`https://mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid rounded-circle d-lg-none pb-2" width={100} alt="" />
                                             </div>
                                             <div className="clearfix"></div>
                                             <div className="row">
@@ -368,7 +368,7 @@ class Home extends Component {
                                                                 return (
                                                                     <div className="col-lg-3" key={key}>
                                                                         <div className="box-promotion">
-                                                                            <img src={`https://bot.mc88auto.com/storage/${promotion.img}`}
+                                                                            <img src={`https://mc88auto.com/storage/${promotion.img}`}
                                                                                 className="img-fluid img-center" alt="" />
                                                                             <p className="pt-2 text-center text-overflow">{promotion.name}</p>
                                                                             {

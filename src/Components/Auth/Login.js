@@ -124,7 +124,7 @@ class Login extends Component {
                                                 <form onSubmit={this.handleSubmitLogin}>
                                                     <div className="card card-auto-1">
                                                         <div className="card-body">
-                                                            <img src={`https://bot.mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid img-center mb-5 pb-3" width="180" alt="" />
+                                                            <img src={`https://mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid img-center mb-5 pb-3" width="180" alt="" />
                                                             <div className="text-center mb-2">
                                                                 <div className="btn-group" role="group" aria-label="Basic example">
                                                                     <button type="button" className={"btn btn-" + (this.state.typeLogin === 1 ? "auto" : "auto-secondary")}
