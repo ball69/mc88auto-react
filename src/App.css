@@ -13,18 +13,20 @@ body {
 
 .dark-layout body,
 body.dark-layout {
-    background: url('./_assets/images/wall.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* background: url('./_assets/images/wall.jpeg') no-repeat center center fixed; */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #cfae42 !important;
 }
 
 .title {
     color: white;
 }
 
-.dark-layout .custom-select, .dark-layout select.form-control {
+.dark-layout .custom-select,
+.dark-layout select.form-control {
     background-color: #283046;
     color: #686e7d;
     border-color: #3b4253;

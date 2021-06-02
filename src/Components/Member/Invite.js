@@ -62,6 +62,9 @@ class Invite extends Component {
                                     modal: true
                                 });
                             }
+                            this.setState({
+                                user: response.data
+                            })
                         }, (err) => {
                             console.log(err);
                         });
