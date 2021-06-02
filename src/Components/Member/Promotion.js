@@ -119,7 +119,7 @@ class Promotion extends Component {
                                                                     return (
                                                                         <div className="col-lg-3" key={key}>
                                                                             <div className="box-promotion">
-                                                                                <img src={`https://mc88auto.com/storage/${promotion.img}`}
+                                                                                <img src={`https://agent.mc88auto.com/storage/${promotion.img}`}
                                                                                     className="img-fluid img-center" alt="" />
                                                                                 <p className="pt-2 text-center text-overflow">{promotion.name}</p>
                                                                                 {

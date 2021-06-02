@@ -24,7 +24,7 @@ class Navbar extends Component {
                     <ul className="nav navbar-nav flex-row">
                         <li className="nav-item img-center">
                             <a className="navbar-brand" href="starter-kit/ltr/vertical-menu-template-dark/">
-                                <img src={`https://mc88auto.com/storage/${this.props.brand.logo}`} className="img-fluid img-center rounded-circle" width="150" alt="" />
+                                <img src={`https://agent.mc88auto.com/storage/${this.props.brand.logo}`} className="img-fluid img-center rounded-circle" width="150" alt="" />
                             </a>
                         </li>
                     </ul>

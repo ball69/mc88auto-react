@@ -169,7 +169,7 @@ class Withdraw extends Component {
                                                                         src={
                                                                             this.state.profile.bank.logo === undefined
                                                                                 ? ""
-                                                                                : "https://mc88auto.com/" + this.state.profile.bank.logo
+                                                                                : "https://agent.mc88auto.com/" + this.state.profile.bank.logo
                                                                         }
                                                                         alt=""
                                                                         width="30"
