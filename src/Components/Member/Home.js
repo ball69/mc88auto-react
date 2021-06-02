@@ -9,6 +9,8 @@ import { NotificationManager } from 'react-notifications';
 import { Modal } from 'react-bootstrap';
 import CurrencyFormat from 'react-currency-format';
 
+import logo from '../../_assets/images/logo.png';
+
 class Home extends Component {
 
     constructor(props) {
@@ -184,7 +186,7 @@ class Home extends Component {
                                                 <h1 className="">ยินดีต้อนรับ คุณ {this.state.user.name}</h1>
                                             </div>
                                             <div className="pb-4">
-                                                <img src={`https://agent.mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid rounded-circle d-lg-none pb-2" width={100} alt="" />
+                                                <img src={logo} className="img-fluid rounded-circle d-lg-none pb-2" width={100} alt="" />
                                             </div>
                                             <div className="clearfix"></div>
                                             <div className="row">

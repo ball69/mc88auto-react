@@ -302,7 +302,7 @@ small {
     animation: pulse 2s infinite;
     padding: 0;
     background: darkorange;
-    box-shadow: 0 0 10px 1px #ff9f43;
+    box-shadow: 0 0 10px 1px #000000;
 }
 
 .bottombar-mobile .nav-menu {
