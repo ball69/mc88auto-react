@@ -185,7 +185,7 @@ class Withdraw extends Component {
                                                             <div className="pull-right">
 
                                                             </div>
-                                                            <h4>2. ตรวจสอบเครดิต & โปรโมชั่น</h4>
+                                                            <h4>2. ตรวจสอบเครดิต</h4>
                                                             <hr />
                                                             <div className="card bg-info card-normal">
                                                                 <div className="card-body">

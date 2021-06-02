@@ -152,7 +152,6 @@ class Deposit extends Component {
                                                                         (profile)
                                                                             ?
                                                                             <div>
-
                                                                                 <img
                                                                                     src={
                                                                                         profile.bank.logo === undefined
