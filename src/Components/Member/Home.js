@@ -186,7 +186,7 @@ class Home extends Component {
                                                 <h1 className="">ยินดีต้อนรับ คุณ {this.state.user.name}</h1>
                                             </div>
                                             <div className="pb-4">
-                                                <img src={logo} className="img-fluid rounded-circle d-lg-none pb-2" width={100} alt="" />
+                                                <img src={logo} className="img-fluid rounded-circle d-lg-none" width={100} alt="" />
                                             </div>
                                             <div className="clearfix"></div>
                                             <div className="row">
