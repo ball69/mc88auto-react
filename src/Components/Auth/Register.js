@@ -9,6 +9,8 @@ import { NotificationManager } from 'react-notifications';
 import { connect } from 'react-redux';
 import authService from '../../_services/auth.service';
 
+import logo from '../../_assets/images/logo.png';
+
 class Register extends Component {
 
     constructor(props) {
@@ -394,7 +396,7 @@ class Register extends Component {
                                             <div className="auth-inner py-2">
                                                 <div className="card card-auto-1">
                                                     <div className="card-body">
-                                                        <img src={`https://agent.mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid img-center mb-5 rounded" width="150" alt="" />
+                                                        <img src={logo} className="img-fluid img-center mb-5 rounded" width="150" alt="" />
                                                         {/* formStep */}
                                                         <div className="row pt-3">
                                                             <div className="col-4 text-center ">

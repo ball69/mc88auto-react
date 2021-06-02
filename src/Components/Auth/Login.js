@@ -10,6 +10,8 @@ import { NotificationManager } from 'react-notifications';
 import brandService from '../../_services/brand.service';
 import authService from '../../_services/auth.service';
 
+import logo from '../../_assets/images/logo.png';
+
 
 class Login extends Component {
 
@@ -124,7 +126,7 @@ class Login extends Component {
                                                 <form onSubmit={this.handleSubmitLogin}>
                                                     <div className="card card-auto-1">
                                                         <div className="card-body">
-                                                            <img src={`https://agent.mc88auto.com/storage/${this.state.brand.logo}`} className="img-fluid img-center mb-5 pb-3" width="180" alt="" />
+                                                            <img src={logo} className="img-fluid img-center mb-5 pb-3" width="180" alt="" />
                                                             <div className="text-center mb-2">
                                                                 <div className="btn-group" role="group" aria-label="Basic example">
                                                                     <button type="button" className={"btn btn-" + (this.state.typeLogin === 1 ? "auto" : "auto-secondary")}

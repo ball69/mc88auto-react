@@ -25,6 +25,10 @@ body.dark-layout {
     color: white;
 }
 
+.notification-message h4.title {
+    color: white !important;
+}
+
 .dark-layout .custom-select,
 .dark-layout select.form-control {
     background-color: #283046;
@@ -70,7 +74,7 @@ a {
 }
 
 a:hover {
-    color: #ebe9f1 !important
+    color: #007bff !important;
 }
 
 a.btn:hover {

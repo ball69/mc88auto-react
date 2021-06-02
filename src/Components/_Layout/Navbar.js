@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from '../../_assets/images/logo.png';
+
 class Navbar extends Component {
 
     constructor(props) {
@@ -24,7 +26,7 @@ class Navbar extends Component {
                     <ul className="nav navbar-nav flex-row">
                         <li className="nav-item img-center">
                             <a className="navbar-brand" href="starter-kit/ltr/vertical-menu-template-dark/">
-                                <img src={`https://agent.mc88auto.com/storage/${this.props.brand.logo}`} className="img-fluid img-center rounded-circle" width="150" alt="" />
+                                <img src={logo} className="img-fluid img-center rounded-circle" width="150" alt="" />
                             </a>
                         </li>
                     </ul>
