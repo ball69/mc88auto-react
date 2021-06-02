@@ -312,8 +312,9 @@ small {
     justify-content: space-around;
 }
 
-
-
+.bg-info h4 {
+    color: white !important;
+}
 
 .card {
     min-height: 230px !important;
