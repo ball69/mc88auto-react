@@ -226,7 +226,7 @@ class Deposit extends Component {
                                                                             >
                                                                                 <div className="card-body">
                                                                                     <img
-                                                                                        src={"https://agent.mc88auto.com/" + bank.bank.logo}
+                                                                                        src={"https://agent.mc88.app/" + bank.bank.logo}
                                                                                         className="img-fluid img-center mb-5"
                                                                                         width="60"
                                                                                         alt=""
