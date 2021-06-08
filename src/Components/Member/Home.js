@@ -179,7 +179,7 @@ class Home extends Component {
                                         <div className="clearfix" />
                                         <div className="content-body">
                                             <div className="d-xs-none">
-                                                <a href={this.state.url} className="btn btn-auto btn-lg pull-right">
+                                                <a href="https://www.mc88auto.com/member" className="btn btn-auto btn-lg pull-right">
                                                     <i className="fad fa-fad fa-ball-pile mr-3"></i>
                                                     ซื้อหวย
                                                 </a>
@@ -349,7 +349,6 @@ class Home extends Component {
                                                     </div>
                                                     :
                                                     ''
-                                                // <p>ขณะนี้ระบบแนะนำเพื่อนยังไม่เปิดให้ใช้บริการ</p>
 
                                             }
                                             {/* </div>

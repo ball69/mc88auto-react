@@ -41,7 +41,7 @@ class Footer extends Component {
                             <Link className="nav-link " to={`/${this.brand}/member/deposit`}> <i className="fad fa-hand-holding-usd" /><span>เติมเงิน</span></Link>
                         </li>
                         <li className="nav-item middle-item">
-                            <a href={this.state.url} className="nav-link btn-auto">
+                            <a href="https://www.mc88auto.com/member" className="nav-link btn-auto">
                                 <i className="fad fa-ball-pile" />
                             </a>
                             <span className="text-auto pt-5">ซื้อหวย</span>
