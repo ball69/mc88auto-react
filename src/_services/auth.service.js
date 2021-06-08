@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://agent.mc88auto.com/api/auth/';
+const API_URL = 'https://agent.mc88.app/api/auth/';
 
 class authService {
     async register(data) {
